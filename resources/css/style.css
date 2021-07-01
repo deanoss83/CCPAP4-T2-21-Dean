@@ -1,7 +1,25 @@
+/* if you want to write comments that the browser won't see, use this star and slash dealio */
+
+/*Global Defaults */
+
 body{
     background-color: bisque;
 }
 .layout-wide{
    background-color: rgb(173, 168, 168);
+
    max-width: 1200px;
+
+
 }
+
+/*Headings and Typography */
+
+
+/* Header */
+
+/* Navigation */
+
+/* Footer */
+
+/* Modules */
