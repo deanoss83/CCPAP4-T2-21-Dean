@@ -1,0 +1,7 @@
+body{
+    background-color: bisque;
+}
+.layout-wide{
+   background-color: rgb(173, 168, 168);
+   max-width: 1200px;
+}
