@@ -4,15 +4,16 @@
 
 body{
     background-color: bisque;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+video{max-width: 750px;}
 
 img{
     max-width: 100%;
 }
 
 /*layouts */
-
-
 
 .layout-wide{
    background-color: rgb(173, 168, 168);
@@ -28,7 +29,6 @@ img{
 }
 
 /*Headings and Typography */
-
 
 /* Header */
 
