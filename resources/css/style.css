@@ -5,11 +5,25 @@
 body{
     background-color: bisque;
 }
+
+img{
+    max-width: 100%;
+}
+
+/*layouts */
+
+
+
 .layout-wide{
    background-color: rgb(173, 168, 168);
 
    max-width: 1200px;
 
+   padding: 50px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: auto;
+   margin-right: auto;
 
 }
 
