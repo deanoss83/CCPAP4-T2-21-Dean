@@ -37,3 +37,10 @@ img{
 /* Footer */
 
 /* Modules */
+
+.content-box {
+    background-color: chartreuse;
+    padding: 20px;
+
+
+}
