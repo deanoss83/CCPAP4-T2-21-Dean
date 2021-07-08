@@ -32,6 +32,8 @@ img{
 
 /* Header */
 
+
+
 /* Navigation */
 
 /* Footer */
@@ -44,3 +46,15 @@ img{
 
 
 }
+
+.content-box-image{
+    padding: 0px;
+
+}
+@media screen and (min-width:600px) {
+    .news-component{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+   
