@@ -1,12 +1,15 @@
 @import url(normalize.css);
 
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Oswald:wght@600&display=swap');
+
+
 /* if you want to write comments that the browser won't see, use this star and slash dealio */
 
 /*Global Defaults */
 
 body{
     background-color: bisque;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Crimson Text', serif;
 }
 
 video{max-width: 750px;}
@@ -32,6 +35,14 @@ img{
 
 /*Headings and Typography */
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: red;
+    font-family: 'Oswald', sans-serif;
+}
 /* Header */
 
 
