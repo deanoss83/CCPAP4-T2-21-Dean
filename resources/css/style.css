@@ -7,6 +7,10 @@
 
 /*Global Defaults */
 
+html{
+    font-size: 20px;
+}
+
 body{
     background-color: bisque;
     font-family: 'Crimson Text', serif;
@@ -43,6 +47,19 @@ h5 {
     color: red;
     font-family: 'Oswald', sans-serif;
 }
+
+h1{font-size: 4rem;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+h3{font-size: 2rem;
+}
+
+
+
 /* Header */
 
 
