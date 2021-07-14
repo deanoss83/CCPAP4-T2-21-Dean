@@ -10,28 +10,48 @@
 html{
     font-size: 20px;
     line-height: 1.6;
-
+    color: black;
 
 }
 
 body{
     background-color: bisque;
     font-family: 'Crimson Text', serif;
+
 }
 
-video{max-width: 750px;}
+video{
+    max-width: 750px;
+
+}
 
 img{
     max-width: 100%;
+
 }
+
+a{
+    color: coral;
+    text-decoration: none;
+
+}
+
+a:hover{
+    color: cyan;
+    text-decoration:none;
+
+}
+
+
+
+
+
+
 
 /*layouts */
 
 .layout-wide{
-   background-color: rgb(173, 168, 168);
-
-   max-width: 1200px;
-
+   max-width: 1000px;
    padding: 50px;
    margin-top: 20px;
    margin-bottom: 20px;
@@ -65,11 +85,27 @@ h3{font-size: 2rem;
 
 /* Header */
 
+header{
+    background-color: white;
 
+}
+
+header h1{
+    color: teal;
+}
 
 /* Navigation */
 
 /* Footer */
+
+footer{
+    background-color: white;
+
+}
+
+footer h1{
+    color:teal;
+}
 
 /* Modules */
 
@@ -84,7 +120,7 @@ h3{font-size: 2rem;
     padding: 0px;
 
 }
-@media screen and (min-width:600px) {
+    @media screen and (min-width:600px) {
     .news-component{
         display: grid;
         grid-template-columns: 1fr 1fr;
