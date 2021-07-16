@@ -15,7 +15,7 @@ html{
 }
 
 body{
-    background-color: bisque;
+    background-color: rgb(255, 255, 255);
     font-family: 'Crimson Text', serif;
 
 }
@@ -27,7 +27,7 @@ video{
 
 img{
     max-width: 100%;
-
+    
 }
 
 a{
@@ -43,11 +43,6 @@ a:hover{
 }
 
 
-
-
-
-
-
 /*layouts */
 
 .layout-wide{
@@ -57,6 +52,50 @@ a:hover{
    margin-bottom: 20px;
    margin-left: auto;
    margin-right: auto;
+
+}
+
+
+
+.layout-full-width {
+    width: 100%;
+    
+}
+
+.layout-full-width video {
+    width: 100%;
+    max-width: 100%;
+}
+
+.layout-services{
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-basis: auto;
+    justify-content: space-between;
+    align-content: center;
+    padding: 7px;
+    transform: scale(1.00);
+    float: left;
+    width: 100%;
+
+}
+
+.notes {
+    font-weight: 400;
+    font-size: 30pt;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    opacity: 100;
+    color: #e0e0e0;
+    display:inline-block
+
+  }
+
+.photo-1{
+    position:relative;display:inline-block;width: 32%;
 
 }
 
@@ -81,38 +120,52 @@ h2{
 h3{font-size: 2rem;
 }
 
+.layout-services h2{
+    color: red;
+    font-weight: 400;
+    margin: 2% 46%;
+    display:inline-block;
+    width: 100%;
+}
 
 
 /* Header */
 
 header{
+    background: url("../images/*IMG_1703.jpg");
     background-color: white;
-
+    
 }
 
 header h1{
-    color: teal;
+    color: whitesmoke;
+
 }
 
 /* Navigation */
 
+
+
+
+
 /* Footer */
 
 footer{
+    background: url("../images/Assignment1-Final-Image.jpg");
     background-color: white;
 
 }
 
 footer h1{
-    color:teal;
+    color:whitesmoke;
+
 }
 
 /* Modules */
 
 .content-box {
-    background-color: chartreuse;
+    background-color: rgb(184, 184, 184);
     padding: 20px;
-
 
 }
 
@@ -126,4 +179,3 @@ footer h1{
         grid-template-columns: 1fr 1fr;
     }
 }
-   
