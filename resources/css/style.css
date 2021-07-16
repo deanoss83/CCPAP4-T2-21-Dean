@@ -78,14 +78,14 @@ a:hover{
     align-content: center;
     padding: 7px;
     transform: scale(1.00);
-    float: left;
-    width: 100%;
+    float: center;
+    
 
 }
 
 .notes {
-    font-weight: 400;
-    font-size: 30pt;
+    
+    font-size: 2vw;
     position: absolute;
     top: 0;
     left: 0;
@@ -99,7 +99,7 @@ a:hover{
 
 .photo-1{
     
-    position:relative;display:inline-block;width: 32%;
+    position:relative;display:inline-block;width: 33%;
 
 }
 
@@ -138,8 +138,7 @@ header{
 
     background: url("../images/IMG_5582.jpg");
     background-color: whitesmoke;
-    background-position-y: -170px;
-    background-position-x: -340px;
+ 
  
 }
 
@@ -218,10 +217,10 @@ footer h1{
   .column .overlay {
     font-size: 2vw;
     position: absolute;
-    text-align: center;
+    text-align: left;
     left: 75%;
     top: 90%;
-    width: 100%;
+    width: 50%;
     color: whitesmoke;
     transform: translate(-50%, -50%);
   }
