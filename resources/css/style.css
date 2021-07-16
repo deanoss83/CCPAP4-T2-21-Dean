@@ -1,7 +1,7 @@
 @import url(normalize.css);
 
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Oswald:wght@600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300&display=swap');
 
 /* if you want to write comments that the browser won't see, use this star and slash dealio */
 
@@ -16,7 +16,7 @@ html{
 
 body{
     background-color: rgb(255, 255, 255);
-    font-family: 'Crimson Text', serif;
+    font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -56,6 +56,9 @@ a:hover{
 }
 
 
+.layout-wide h2{
+    line-height: 1.1;
+}
 
 .layout-full-width {
     width: 100%;
@@ -106,8 +109,7 @@ h2,
 h3,
 h4,
 h5 {
-    color: red;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Bebas Neue', cursive;
 }
 
 h1{font-size: 4rem;
@@ -121,7 +123,6 @@ h3{font-size: 2rem;
 }
 
 .layout-services h2{
-    color: red;
     font-weight: 400;
     margin: 2% 46%;
     display:inline-block;
@@ -139,6 +140,7 @@ header{
 
 header h1{
     color: whitesmoke;
+    text-align: center;
 
 }
 
