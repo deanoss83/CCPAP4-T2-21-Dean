@@ -31,7 +31,7 @@ img{
 }
 
 a{
-    color: coral;
+    color: rgb(25, 0, 255);
     text-decoration: none;
 
 }
@@ -98,6 +98,7 @@ a:hover{
   }
 
 .photo-1{
+    
     position:relative;display:inline-block;width: 32%;
 
 }
@@ -123,24 +124,29 @@ h3{font-size: 2rem;
 }
 
 .layout-services h2{
-    font-weight: 400;
-    margin: 2% 46%;
-    display:inline-block;
-    width: 100%;
+    text-align: center;
 }
 
+
+li{
+    line-height: 1.5;
+}
 
 /* Header */
 
 header{
-    background: url("../images/*IMG_1703.jpg");
-    background-color: white;
-    
+
+    background: url("../images/IMG_5582.jpg");
+    background-color: whitesmoke;
+    background-position-y: -170px;
+    background-position-x: -340px;
+ 
 }
 
 header h1{
-    color: whitesmoke;
+    color: rgb(107, 141, 255);
     text-align: center;
+    
 
 }
 
@@ -171,6 +177,8 @@ footer h1{
 
 }
 
+/* all of the experiments going on here to find a way to get my three images in a responsive grid AND have the title text displayed */
+
 .content-box-image{
     padding: 0px;
 
@@ -181,3 +189,47 @@ footer h1{
         grid-template-columns: 1fr 1fr;
     }
 }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    float: left;  
+    margin: auto;
+    flex: 32%;
+    max-width: 32%;
+    position: relative;
+    box-sizing: border-box;
+    padding: 0 5px;
+    
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+
+  .column .overlay {
+    font-size: 2vw;
+    position: absolute;
+    text-align: center;
+    left: 75%;
+    top: 90%;
+    width: 100%;
+    color: whitesmoke;
+    transform: translate(-50%, -50%);
+  }
+
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
