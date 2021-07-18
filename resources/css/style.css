@@ -40,6 +40,11 @@ a:hover{
     color: cyan;
     text-decoration:none;
 
+
+}
+
+a:visited{
+    color: rgb(80, 155, 0);
 }
 
 
