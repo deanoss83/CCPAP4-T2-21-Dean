@@ -74,7 +74,7 @@ a:hover{
     flex-wrap: wrap;
     flex-direction: row;
     flex-basis: auto;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-content: center;
     padding: 7px;
     transform: scale(1.00);
