@@ -31,7 +31,7 @@ img{
 }
 
 header img{
-    max-width: 60px;
+    max-width: 40px;
 }
 
 a{
@@ -107,14 +107,15 @@ li{
 .header-left a{
     float: left;
     text-align: center;
-    padding: 15px;
+    margin-left: 35px;
     line-height: 5px;
 
 }
 
 .header-right{
     float: right;
-    padding: 20px;
+    margin-top: 30px;
+    
 }
 
 /* Navigation */
