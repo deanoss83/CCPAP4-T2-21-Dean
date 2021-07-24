@@ -1,0 +1,152 @@
+@import url(normalize.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300&display=swap');
+
+/* if you want to write comments that the browser won't see, use this star and slash dealio */
+
+/*Global Defaults */
+
+html{
+    font-size: 20px;
+    line-height: 1.6;
+    color: black;
+
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+video{
+    max-width: 750px;
+
+}
+
+img{
+    max-width: 100%;
+    
+}
+
+header img{
+    max-width: 60px;
+}
+
+a{
+    color: rgb(25, 0, 255);
+    text-decoration: none;
+
+}
+
+a:hover{
+    color: cyan;
+    text-decoration:none;
+
+
+}
+
+a:visited{
+    color: rgb(80, 155, 0);
+}
+
+
+/*layouts */
+
+.layout-full-wide{
+    background-color: gray;
+    padding: 32px;
+    
+}
+   
+
+
+.zoom {
+    transition: transform .3s ease-in-out; /* Animation */
+
+  }
+  
+  .zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+/*Headings and Typography */
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+h1{font-size: 4rem;
+}
+
+h2{
+    font-size: 3rem;
+    color: rgb(26, 26, 26);
+}
+
+h3{font-size: 2rem;
+}
+
+
+li{
+    line-height: 1.5;
+}
+
+/* Header */
+
+.header-left{
+    background-color: rgb(194, 194, 194);
+    overflow: hidden;
+}
+
+.header-left a{
+    float: left;
+    text-align: center;
+    padding: 15px;
+    line-height: 5px;
+
+}
+
+.header-right{
+    float: right;
+    padding: 20px;
+}
+
+/* Navigation */
+
+
+
+
+
+/* Footer */
+
+
+
+/* Modules */
+
+.content-box {
+    background-color: rgb(184, 184, 184);
+    padding: 20px;
+
+}
+
+/* all of the experiments going on here to find a way to get my three images in a responsive grid AND have the title text displayed */
+
+.content-box-image{
+    padding: 0px;
+
+}
+    @media screen and (min-width:600px) {
+    .news-component{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+ 
