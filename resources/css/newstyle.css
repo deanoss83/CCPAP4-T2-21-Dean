@@ -30,6 +30,14 @@ video{
 
 }
 
+.large-nav{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 43px;
+    
+}
+
 img{
     max-width: 100%;
     
@@ -40,8 +48,8 @@ header img{
 }
 
 a{
-    color: rgb(255, 255, 255);
-    text-decoration: none;
+    color: rgb(231, 229, 229);
+    text-decoration: none
 
 }
 
@@ -128,9 +136,6 @@ li{
 
 
 
-
-
-
 /* Footer */
 
 
@@ -143,9 +148,9 @@ li{
 
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 769px) {
     .large-nav{
-        padding: 30px;
+      
         display: grid;
         grid-template-columns: auto auto auto;
         grid-gap: 20px;  
@@ -171,7 +176,7 @@ li{
     padding: 0px;
 
 }
-    @media screen and (min-width:600px) {
+    @media screen and (min-width:769px) {
     .news-component{
         display: grid;
         grid-template-columns: 1fr 1fr;
