@@ -93,8 +93,6 @@ a:visited{
     
 }
 
-
-
 .zoom {
     transition: transform .3s ease-in-out; /* Animation */
 
@@ -166,6 +164,11 @@ li{
     margin-right: 50px;
     margin-top: 30px;
     
+}
+
+.footer-left{
+    margin-left: 35px;
+ 
 }
 
 /* Navigation */
