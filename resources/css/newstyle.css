@@ -144,7 +144,9 @@ li{
 
 
 /* Header */
-
+header {
+    overflow: hidden;
+}
 .header-left{
     background-color: honeydew;
     
