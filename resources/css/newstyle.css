@@ -161,12 +161,17 @@ li{
 /* Header */
 
 .header-left{
-    text-align: left;
+    text-align: left; 
 
+}
+
+.header-left a:visited{
+    color: black;
 }
 
 .header-right{
    text-align: right;
+   margin-right: 35px;
     
 }
 
