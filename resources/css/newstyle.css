@@ -65,6 +65,14 @@ a:visited{
 
 /*layouts */
 
+.header-wide{
+    max-width: 100%;
+    padding: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
 .layout-full-wide{
     background-color: gray;
     padding: 35px;
@@ -83,6 +91,11 @@ a:visited{
     padding: 25px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.display-highlight img{
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .bio{
@@ -118,6 +131,8 @@ h5 {
 }
 
 h1{font-size: 4rem;
+    line-height: 0;
+
 }
 
 h2{
@@ -144,28 +159,21 @@ li{
 
 
 /* Header */
-header {
-    overflow: hidden;
-}
-.header-left{
-    background-color: honeydew;
-    
-}
 
-.header-left a{
-    float: left;
-    text-align: center;
-    margin-left: 35px;
-    line-height: 5px;
-    color: black;
+.header-left{
+    text-align: left;
 
 }
 
 .header-right{
-    float: right;
-    margin-right: 50px;
-    margin-top: 30px;
+   text-align: right;
     
+}
+
+.header-right a{
+    display:inline-block;
+    margin-top: 25px;
+    margin-right: 35px;
 }
 
 .footer-left{
@@ -174,6 +182,8 @@ header {
 }
 
 /* Navigation */
+
+
 
 
 
@@ -203,7 +213,14 @@ header {
         grid-gap: 30px;
         
     }
+    .header-wide{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+
 }
+
 
 @media screen and (max-width: 768px) {
     
