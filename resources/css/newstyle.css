@@ -162,6 +162,8 @@ li{
 
 .header-left{
     text-align: left; 
+    font-size: 2.5rem;
+    font-family: 'Bebas Neue', cursive;
 
 }
 
@@ -171,7 +173,7 @@ li{
 
 .header-right{
    text-align: right;
-   margin-right: 35px;
+
     
 }
 
@@ -181,19 +183,29 @@ li{
     margin-right: 35px;
 }
 
-.footer-left{
-    margin-left: 35px;
- 
+@media screen and (min-width: 769px){
+    .header-wide{
+        display: grid;
+        grid-template-columns: auto 300px;
+        
+    }
+    .header-left{
+        font-size: 4rem;
+    }
 }
+
+
 
 /* Navigation */
 
 
-
-
-
 /* Footer */
 
+
+.footer-left{
+    margin-left: 35px;
+ 
+}
 
 
 /* Modules */
@@ -218,11 +230,7 @@ li{
         grid-gap: 30px;
         
     }
-    .header-wide{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        
-    }
+    
 
 }
 
