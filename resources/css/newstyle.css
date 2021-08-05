@@ -41,7 +41,7 @@ header img{
 }
 
 a{
-    color: rgb(231, 229, 229);
+    color: rgb(0, 0, 0);
     text-decoration: none
 
 }
@@ -198,7 +198,39 @@ li{
 
 /* Navigation */
 
+button {
 
+}
+
+nav ul{
+    list-style-type: none;
+}
+.main-nav {
+  max-height: 0;
+  overflow: hidden;
+  transition: .5s;
+  float: right;
+  
+}
+
+.main-nav.open {
+  max-height: 100vh;
+}
+
+.desktop-socials {
+  display: none;
+}
+
+
+@media screen and (min-width: 769px) {
+  .desktop-socials {
+    display: inline;
+  }
+  
+  .mobile-socials {
+    display: none;
+  }
+}
 /* Footer */
 
 
