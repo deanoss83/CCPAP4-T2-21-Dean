@@ -185,7 +185,7 @@ li{
 .header-right a{
     /* display:inline-block; */
     margin-top: 25px;
-    margin-right: 35px;
+    
 }
 
 @media screen and (min-width: 769px){
@@ -225,6 +225,7 @@ nav ul{
 .main-nav img{
     max-width: 50px;
 }
+
 .main-nav.open {
   max-height: 100vh;
   
@@ -267,9 +268,14 @@ nav ul{
  
   }
 
+  .header-right a{
+      margin-right: 35px;
+  }
+
 .main-nav li{
 text-align: right;
 }
+
 
 }
 
