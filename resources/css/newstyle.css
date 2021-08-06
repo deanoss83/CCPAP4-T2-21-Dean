@@ -38,6 +38,7 @@ img{
 
 header img{
     max-width: 40px;
+    margin-top: 30px;
 }
 
 a{
@@ -161,9 +162,10 @@ li{
 /* Header */
 
 .header-left{
-    text-align: left; 
+    text-align: center; 
     font-size: 2.5rem;
     font-family: 'Bebas Neue', cursive;
+    overflow: hidden;
 
 }
 
@@ -172,9 +174,10 @@ li{
 }
 
 .header-right{
-   text-align: right;
+   text-align: center;
    grid-template-columns: 1fr 1fr 1fr;
-align-items: center;
+   align-items: center;
+   overflow: hidden;
 
     
 }
@@ -193,6 +196,7 @@ align-items: center;
     }
     .header-left{
         font-size: 4rem;
+        text-align: left;
     }
 }
 
@@ -206,17 +210,24 @@ button {
 
 nav ul{
     list-style-type: none;
+    padding-inline-start: 0%;
 }
 .main-nav {
   max-height: 0;
   overflow: hidden;
   transition: .5s;
-  float: right;
   
 }
 
+.main-nav li{
+    text-align: center;
+}
+.main-nav img{
+    max-width: 50px;
+}
 .main-nav.open {
   max-height: 100vh;
+  
 }
 
 .desktop-socials {
@@ -224,21 +235,45 @@ nav ul{
 }
 
 .mobile-socials {
-   
+        max-width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
         display: grid;
         grid-template-columns: auto auto;
 }
 
 
 @media screen and (min-width: 769px) {
-  .desktop-socials {
+  .main-nav{
+      margin-right: -100%;
+     
+  }
+  
+  .main-nav.open{
+      margin-right: 35px;
+    
+      
+  }
+    .desktop-socials {
     display: inline;
   }
   
   .mobile-socials {
     display: none;
   }
+  .header-right{
+  text-align: right;
+ 
+  }
+
+.main-nav li{
+text-align: right;
 }
+
+}
+
+
 /* Footer */
 
 
