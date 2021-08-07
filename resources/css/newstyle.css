@@ -58,6 +58,15 @@ a:visited{
     color: rgb(62, 109, 11);
 }
 
+button{
+  padding: 20px;
+  transition: 0.3s;
+  margin-top: 15px;
+}
+
+button:hover{
+background-color: brown;
+}
 
 
 
@@ -89,7 +98,6 @@ a:visited{
 }
 .display-highlight{
     background-color: rgb(207, 206, 206);
-    padding: 25px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -235,7 +243,9 @@ nav ul{
         display: grid;
         grid-template-columns: auto auto;
 }
-
+.bio-button{
+    text-align: center;
+}
 
 @media screen and (min-width: 769px) {
   .main-nav{
