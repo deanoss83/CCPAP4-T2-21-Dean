@@ -96,18 +96,16 @@ button:hover{
     padding: 43px;
     
 }
-.display-highlight{
+.display-highlight,
+.display-highlight-v2{
     background-color: rgb(207, 206, 206);
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.display-highlight img{
-    margin-top: auto;
-    margin-bottom: auto;
-}
 
-.display-main{
+.display-main,
+.display-main-v2{
     max-width: 1100px;
     margin-left: auto;
     margin-right: auto;
@@ -322,6 +320,12 @@ nav ul{
         grid-gap: 15px;
         grid-template-columns: 60% auto;
         
+    }
+
+    .display-main-v2{
+        display: grid;
+        grid-gap: 15px;
+        grid-template-columns: auto 60%;
     }
     .display-secondary{
         margin-top: auto;
