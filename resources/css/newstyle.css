@@ -96,13 +96,12 @@ button:hover{
     padding: 43px;
     
 }
-.display-highlight,
-.display-highlight-v2{
-    background-color: rgb(207, 206, 206);
+.display-highlight
+    {
+    background-color: rgb(233, 231, 231);
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
 
 .display-main,
 .display-main-v2{
@@ -119,7 +118,7 @@ button:hover{
   }
   
   .zoom:hover {
-    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   }
 
 
