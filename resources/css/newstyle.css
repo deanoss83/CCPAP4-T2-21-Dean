@@ -59,13 +59,13 @@ a:visited{
 }
 
 button{
-  padding: 20px;
-  transition: 0.3s;
-  margin-top: 15px;
+    padding: 20px;
+    transition: 0.3s;
+    margin-top: 15px;
 }
 
 button:hover{
-background-color: brown;
+    background-color: brown;
 }
 
 
@@ -107,7 +107,7 @@ background-color: brown;
     margin-bottom: auto;
 }
 
-.bio{
+.display-main{
     max-width: 1100px;
     margin-left: auto;
     margin-right: auto;
@@ -139,7 +139,8 @@ h5 {
     font-family: 'Bebas Neue', cursive;
 }
 
-h1{font-size: 4rem;
+h1{
+    font-size: 4rem;
     line-height: 0;
 
 }
@@ -150,7 +151,8 @@ h2{
     color: rgb(26, 26, 26);
 }
 
-h3{font-size: 2rem;
+h3{
+    font-size: 2rem;
 }
 
 h4{
@@ -182,10 +184,10 @@ li{
 }
 
 .header-right{
-   text-align: center;
-   grid-template-columns: 1fr 1fr 1fr;
-   align-items: center;
-   overflow: hidden;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    overflow: hidden;
 
     
 }
@@ -213,9 +215,9 @@ nav ul{
     padding-inline-start: 0%;
 }
 .main-nav {
-  max-height: 0;
-  overflow: hidden;
-  transition: .5s;
+    max-height: 0;
+    overflow: hidden;
+    transition: .5s;
   
 }
 
@@ -236,53 +238,54 @@ nav ul{
 }
 
 .mobile-socials {
-        max-width: 200px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 15px;
-        display: grid;
-        grid-template-columns: auto auto;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: auto auto;
 }
-.bio-button{
+.dual-button{
     text-align: center;
 }
 
 
 @media screen and (min-width: 769px) {
-  .main-nav{
-      margin-right: -100%;
+     .main-nav{
+        margin-right: -100%;
      
   }
   
-  .main-nav.open{
-      margin-right: 35px;
+    .main-nav.open{
+        margin-right: 35px;
     
       
   }
     .desktop-socials {
-    display: inline;
+        display: inline;
   }
   
   .mobile-socials {
-    display: none;
+        display: none;
   }
+
   .header-right{
-    /* text-align: right; */
-    /* margin-top: 35px; */
-    display: flex;
-    justify-content: flex-end;
-    /* justify-content: right; */
-    /* justify-items: right; */
-    align-items: center;
+        /* text-align: right; */
+        /* margin-top: 35px; */
+        display: flex;
+        justify-content: flex-end;
+        /* justify-content: right; */
+        /* justify-items: right; */
+        align-items: center;
  
   }
 
-  .header-right a{
-      margin-right: 35px;
+    .header-right a{
+        margin-right: 35px;
   }
 
-.main-nav li{
-text-align: right;
+    .main-nav li{
+        text-align: right;
 }
 
 
@@ -314,17 +317,20 @@ text-align: right;
         grid-gap: 40px;  
     }
     
-    .bio{
+    .display-main{
         display: grid;
         grid-gap: 15px;
         grid-template-columns: 60% auto;
         
     }
-    
+    .display-secondary{
+        margin-top: auto;
+        margin-bottom: auto;
+    }
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
     
     .zoom{
         transition: none;
