@@ -247,6 +247,7 @@ nav ul{
     text-align: center;
 }
 
+
 @media screen and (min-width: 769px) {
   .main-nav{
       margin-right: -100%;
@@ -315,12 +316,11 @@ text-align: right;
     
     .bio{
         display: grid;
-        grid-template-columns: 60% 40%;
-        grid-gap: 30px;
+        grid-gap: 15px;
+        grid-template-columns: 60% auto;
         
     }
     
-
 }
 
 
