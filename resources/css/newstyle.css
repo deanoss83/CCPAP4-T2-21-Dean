@@ -68,7 +68,15 @@ button:hover{
     background-color: brown;
 }
 
-
+#headerPopup{
+    width:75%;
+    margin:0 auto;
+  }
+  
+  #headerPopup iframe{
+    width:100%;
+    margin:0 auto;
+  }
 
 
 /*layouts */
@@ -372,6 +380,3 @@ nav ul{
         grid-template-columns: 1fr 1fr;
     }
 }
-
-
- 
