@@ -10,12 +10,12 @@
 html{
     font-size: 20px;
     line-height: 1.5;
-    color: black;
+    color: #000d0d;
 
 }
 
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: #F6F7F7;
     font-family: 'Montserrat', sans-serif;
 
 }
@@ -48,24 +48,28 @@ a{
 }
 
 a:hover{
-    color: cyan;
+    color: #9b4242;
     text-decoration:none;
 
 
 }
 
 a:visited{
-    color: rgb(62, 109, 11);
+    color: #a1a4a6;
 }
 
 button{
     padding: 20px;
     transition: 0.3s;
     margin-top: 15px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
 }
 
 button:hover{
-    background-color: brown;
+    background-color:#304B5B;
 }
 
 #headerPopup{
@@ -89,8 +93,16 @@ button:hover{
     
 }
 
+.footer-wide{
+    color: #a1a4a6;
+    max-width: 100%;
+    padding: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
 .layout-full-wide{
-    background-color: gray;
+    background-color: #F6F7F7;
     padding: 35px;
     
 }
@@ -104,7 +116,7 @@ button:hover{
 }
 .display-highlight
     {
-    background-color: rgb(233, 231, 231);
+    background-color: #dfdfdf;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -151,7 +163,6 @@ h1{
 h2{
     font-size: 2.7rem;
     line-height: 1;
-    color: rgb(26, 26, 26);
 }
 
 h3{
@@ -236,6 +247,10 @@ nav ul{
   
 }
 
+.main-nav.open a:visited{
+    color: #000d0d;
+}
+
 .desktop-socials {
   display: none;
 }
@@ -249,7 +264,11 @@ nav ul{
     grid-template-columns: auto auto;
 }
 .dual-button{
+    display: grid;
+    grid-template-columns: auto auto;
     text-align: center;
+
+
 }
 
 
@@ -364,7 +383,7 @@ nav ul{
     bottom: 0;
     font-size: 2em;
     background-color: black;
-    color: blanchedalmond;
+    color: #F6F7F7;
 }
 
 
