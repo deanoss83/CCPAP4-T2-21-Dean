@@ -337,6 +337,12 @@ nav ul{
 
 }
 
+.section-titles{
+    font-family: var(--secondary-font);
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
 @media screen and (min-width: 769px) {
     .large-nav{
       
