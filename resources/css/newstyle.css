@@ -246,7 +246,7 @@ nav ul{
 
 .main-nav li{
     text-align: center;
-    color: var(--tertiary-color);
+
 }
 
 .main-nav img{
@@ -256,6 +256,10 @@ nav ul{
 .main-nav.open {
   max-height: 100vh;
   
+}
+
+.main-nav.open a{
+    color: var(--tertiary-color);
 }
 
 .main-nav.open a:visited{
