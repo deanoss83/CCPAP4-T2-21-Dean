@@ -137,7 +137,7 @@ button:hover{
 
 .zoom {
     transition: transform .3s ease-in-out; /* Animation */
-
+    
   }
   
   .zoom:hover {
@@ -344,7 +344,8 @@ nav ul{
         grid-template-columns: auto auto auto;
         grid-gap: 40px;  
     }
-    
+
+
     .display-main{
         display: grid;
         grid-gap: 15px;
