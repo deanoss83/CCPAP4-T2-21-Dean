@@ -260,6 +260,7 @@ nav ul{
 
 .main-nav.open a{
     color: var(--tertiary-color);
+    
 }
 
 .main-nav.open a:visited{
