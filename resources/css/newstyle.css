@@ -198,6 +198,10 @@ li{
 
 }
 
+.header-left a{
+    color:var(--tertiary-color)
+}
+
 .header-left a:visited{
     color: var (var(--tertiary-color));
 }
