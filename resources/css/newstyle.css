@@ -244,13 +244,11 @@ nav ul{
   
 }
 
-.main-nav a{
+.main-nav li{
+    text-align: center;
     color: var(--tertiary-color);
 }
 
-.main-nav li{
-    text-align: center;
-}
 .main-nav img{
     max-width: 50px;
 }
