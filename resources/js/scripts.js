@@ -12,15 +12,15 @@ function openNav() {
     }
     
   }
+    
   
+  openNav();
   
-  openNav()
+/*this is for the lightbox gallery*/
 
-
-  /*this is for the lightbox gallery*/
-
-  var lightbox = new SimpleLightbox('.gallery a', { /* options */ });
-
+var lightbox = new SimpleLightbox('.gallery1 a',{});
+var lightbox2 = new SimpleLightbox('.gallery2 a',{});
+  
 
 
   /* Video pop up */
