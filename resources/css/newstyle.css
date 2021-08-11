@@ -10,13 +10,17 @@
 html{
     font-size: 20px;
     line-height: 1.5;
-    color: #000d0d;
-
+    --main-color: #f6f7f7;
+    --secondary-color: #dfdfdf;
+    --tertiary-color: #000d0d;
+    --quarterary-color: #304b5b;
+    --main-font: 'Montserrat', sans-serif;
+    --secondary-font: 'Bebas Neue', cursive;
 }
 
 body{
-    background-color: #F6F7F7;
-    font-family: 'Montserrat', sans-serif;
+    background-color: var(--main-color);
+    font-family: var(--main-font);
 
 }
 
@@ -42,7 +46,7 @@ header img{
 }
 
 a{
-    color: rgb(0, 0, 0);
+    color: var (-var(--tertiary-color));
     text-decoration: none
 
 }
@@ -69,7 +73,8 @@ button{
 }
 
 button:hover{
-    background-color:#304B5B;
+    background-color: var(--quarterary-color);
+    color: var(--secondary-color);
 }
 
 #headerPopup{
@@ -102,7 +107,7 @@ button:hover{
     
 }
 .layout-full-wide{
-    background-color: #F6F7F7;
+    background-color: var(--main-color);
     padding: 35px;
     
 }
@@ -151,7 +156,7 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: 'Bebas Neue', cursive;
+    font-family: var(--secondary-font);
 }
 
 h1{
@@ -188,13 +193,13 @@ li{
 .header-left{
     text-align: center; 
     font-size: 2.5rem;
-    font-family: 'Bebas Neue', cursive;
+    font-family: var(--secondary-font);
     overflow: hidden;
 
 }
 
 .header-left a:visited{
-    color: black;
+    color: var (var(--tertiary-color));
 }
 
 .header-right{
@@ -248,7 +253,7 @@ nav ul{
 }
 
 .main-nav.open a:visited{
-    color: #000d0d;
+    color: var(--tertiary-color);
 }
 
 .desktop-socials {
