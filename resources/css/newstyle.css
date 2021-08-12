@@ -144,7 +144,16 @@ button:hover{
     transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   }
 
-
+  @media screen and (max-width: 769px) {
+    
+    .zoom{
+        transition: none;
+    }
+    .zoom:hover{
+        transform: none;
+    }
+    
+}
 
 
 
@@ -380,18 +389,6 @@ nav ul{
         margin-top: auto;
         margin-bottom: auto;
     }
-}
-
-
-@media screen and (max-width: 769px) {
-    
-    .zoom{
-        transition: none;
-    }
-    .zoom:hover{
-        transform: none;
-    }
-    
 }
 
 
